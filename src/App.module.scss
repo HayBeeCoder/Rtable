@@ -1,0 +1,36 @@
+.header-title {
+	font-size: 2em;
+	font-weight: bold;
+	color: #263340;
+}
+
+.grid-container__table-section {
+	margin-top: 2.5em;
+	padding: 2em;
+	background: white;
+
+	.table-search {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0.5em;
+	}
+
+	.membership-container__table-search-section {
+		display: flex;
+		flex-direction: row;
+	}
+
+	table {
+		margin-top: 2em;
+
+		tbody,
+		td {
+			cursor: pointer;
+		}
+	}
+}
+
+.select-go-to-page {
+	margin: 0 0.5em;
+}

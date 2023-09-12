@@ -1,0 +1,18 @@
+.go-to-page-section {
+
+  p {
+      display: inline-block;
+      color: #263340;
+  }
+
+input {
+      height: 2em;
+  border: 2px solid #4a5c6f;
+  border-radius: 0.5em;
+  text-indent: 15px;
+
+      &:focus {
+      background: var(--light-blue);
+      }
+}
+}

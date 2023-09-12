@@ -1,0 +1,23 @@
+.global-input-section {
+  width: 25%;
+
+  input {
+      border: 2px solid #4A5C6F;
+      border-radius: 3.125em;
+      text-indent: 20px;
+  }
+}
+
+.input-label {
+position: relative;
+  
+&.mt-1 {
+  margin-top: 0.25em;
+}
+
+  .inputlabel__search-icon {
+      position: absolute;
+      top: 25%;
+      right: 5%;
+  }
+}

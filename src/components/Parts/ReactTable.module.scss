@@ -1,0 +1,27 @@
+.react-table {
+	background: #fff;
+	.table {
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+		background: #fff;
+	}
+
+	.table td,
+	.table th {
+		padding: 8px;
+	}
+
+	.table tr:hover {
+		background: rgba(48, 68, 62, 0.4);
+		cursor: pointer;
+	}
+
+	.table th,
+	tfoot td {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		text-align: left;
+		background-color: #465c71;
+		color: white;
+	}}
